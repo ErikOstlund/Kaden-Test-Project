@@ -7,3 +7,5 @@
 # Jan 14th, 2022
 
 - First Project update!
+
+- update with Tower.
