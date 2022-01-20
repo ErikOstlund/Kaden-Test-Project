@@ -9,3 +9,7 @@
 - First Project update!
 
 - update with Tower.
+
+# Jan 20, 2022
+
+- Fixed a bug!
