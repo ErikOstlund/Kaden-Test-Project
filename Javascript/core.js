@@ -30,3 +30,67 @@ function multiply(param1, param2) {
 
 // calls the function
 console.log(multiply(f1, f2));
+
+// conditionals: if, if/else, ternaries, switch
+const number = 3333;
+
+function numberSize(n) {
+	if (n < 5) {
+		// if true, run this code:
+		console.log('Less than 5');
+	} else if (n >= 5 && n < 10) {
+		console.log(' Between 5 and 9');
+	} else {
+		console.log('10 or greater!');
+	}
+}
+
+numberSize(number);
+
+// operators
+
+const firstName = 'kaden';
+const lastName = 'Blahhhhh';
+
+function nameCheck(firstName, lastName) {
+	if (firstName === 'kaden' || (firstName === 'erik' && lastName === 'o')) {
+		console.log('awesome name!');
+	}
+}
+
+nameCheck(firstName, lastName);
+
+// ternarie
+const darkMode = true;
+
+// if (darkMode) {
+// 	alert('Dark Mode ON!');
+// } else {
+// 	alert(' Dark Mode OFF.');
+// }
+
+function checkTheme(darkMode) {
+	const themeMessage = darkMode
+		? alert('Dark Mode ON!')
+		: alert('Dark Mode OFF.');
+	return themeMessage;
+}
+
+checkTheme(darkMode);
+
+// switch statement
+const color = 'green';
+
+switch (color) {
+	case 'blue':
+		console.log('Blue!');
+		break;
+	case 'yellow':
+		console.log('Yellow!');
+		break;
+	case 'green':
+		console.log('Green!');
+		break;
+	default:
+		console.log('Run this code if all else fails!');
+}
