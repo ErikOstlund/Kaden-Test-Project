@@ -69,14 +69,14 @@ const darkMode = true;
 // 	alert(' Dark Mode OFF.');
 // }
 
-function checkTheme(darkMode) {
-	const themeMessage = darkMode
-		? alert('Dark Mode ON!')
-		: alert('Dark Mode OFF.');
-	return themeMessage;
-}
+// function checkTheme(darkMode) {
+// 	const themeMessage = darkMode
+// 		? alert('Dark Mode ON!')
+// 		: alert('Dark Mode OFF.');
+// 	return themeMessage;
+// }
 
-checkTheme(darkMode);
+// checkTheme(darkMode);
 
 // switch statement
 const color = 'green';
@@ -93,4 +93,10 @@ switch (color) {
 		break;
 	default:
 		console.log('Run this code if all else fails!');
+}
+
+// -------- Form ----------
+function showInput() {
+	document.getElementById('display').innerHTML =
+		document.getElementById('user_input').value;
 }
